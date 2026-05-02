@@ -1,6 +1,6 @@
 # README
 
-This folder contains the code used for the dissertation project
+This repository contains the code used for the dissertation project
 `Self-Supervised Vision-Based Clustering Analysis for Scene Flow Estimation`.
 
 The code here is not a complete standalone project. It is intended to be applied on top of two external repositories:
@@ -8,7 +8,7 @@ The code here is not a complete standalone project. It is intended to be applied
 - `sam3` / SAM 3 for image segmentation
 - `ICP-Flow` for downstream clustering, registration and flow estimation
 
-The files in this folder provide the custom code used in the dissertation:
+The files in this repository provide the custom code used in the dissertation:
 
 - `lidarpipeline.py`
   Multiview SAM-LiDAR association pipeline. This performs segmentation, LiDAR projection, cross-camera merging, temporal tracking and export of ICP-Flow-compatible `.npz` pairs.
@@ -33,7 +33,7 @@ Before starting, you should have:
 - enough disk space for Argoverse 2 sensor data
 - both external repositories cloned locally
 
-The code in this folder was developed with:
+The code in this repository was developed with:
 
 - Python 3.10
 - WSL2-style paths
